@@ -22,7 +22,7 @@ function setStory(){
      "as you get close to " + wordsB[8]+ ",Where it lives. As the monster gets up to you get the mighty weapon and" +
       wordsB[9] + "stapping it in its heart. After it's death you were treated to a reward of"
       + wordsB[10] + "When you go to the King, he gives you " + wordsB[11];
-console.log("work please"+ story);
+console.log( story);
  document.getElementById("storyA").innerHTML = story;
 
  }
