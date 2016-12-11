@@ -1,4 +1,4 @@
-var onestory = document.getElementById("storyA").innerHTML;
+
 function storyCreator(){
  var newButton = document.getElementById("buttonB");
  var result = newButton.link("Story.html");
@@ -24,6 +24,7 @@ function setStory(){
       wordsB[9] + "stapping it in its heart. After it's death you were treated to a reward of"
       + wordsB[10] + "When you go to the King, he gives you " + wordsB[11];
 console.log( story);
+var onestory = document.getElementById("storyA").innerHTML;
  onestory = story;
 
 
