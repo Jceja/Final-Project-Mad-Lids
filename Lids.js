@@ -1,4 +1,3 @@
-window.onload = storySetting;
 function storyCreator(){
  var newButton = document.getElementById("buttonB");
  var result = newButton.link("Story.html");
@@ -10,7 +9,7 @@ function setStory(){
   for(i=0; i<inputs.length;i++){
     words[i] = inputs[i].value}
     var groups = JSON.stringify(words);
-    createCookie('wordsofLids', groups )
+    setCookie('wordsofLids', groups )
    alert("Your words have been saved");
   }
  function storySetting(){
