@@ -1,7 +1,4 @@
-
-
-
-
+window.load = storySetting;
 function storyCreator(){
  var newButton = document.getElementById("buttonB");
  var result = newButton.link("Story.html");
@@ -21,7 +18,7 @@ function setStory(){
   }
  function storySetting(){
   var fullstory =  getCookie("wordsofLids");
-  var onestory =document.getElementById("storyA");
+  var onestory = document.getElementById("storyA");
   onestory.innerHTML = fullstory;
  }
 
