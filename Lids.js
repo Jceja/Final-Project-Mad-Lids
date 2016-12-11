@@ -16,9 +16,14 @@ function setStory(){
      + words[2] + "out of a " + words[3] + "stone." + words[0] + ", had to find " + words[4] +
      "and had found them at " + words[5] + ",Then" + words[4]+ "went out an got ready the mighty"
      + words[5] + "and it's trusty" + words[6]+ "He was set off to kill off" + words[7] + "as you get close to " + words[8]+ ",Where it lives. As the monstar gets up to you get the mighty weapon and" + words[9] + "stap it in";
-    setCookie("wordsofLids",words, )
+    setCookie("wordsofLids",words )
    alert("Your words have been saved");
   }
+ function storySetting(){
+  var fullstory =  getCookie("wordsofLids");
+  var onestory =document.getElementById("storyA");
+  onestory.innerHTML = fullstory;
+ }
 
 //courtesy of W3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
