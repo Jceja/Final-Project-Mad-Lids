@@ -1,0 +1,28 @@
+h1  {
+  float:middle;
+  color: #ffcccc;
+  font-size: 300%;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h3  {
+  float:middle;
+  color: #000033;
+  font-size: 150%;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.Lidscolor ul{
+  font-size: 16px;
+  color: lightslategrey;
+  border: 2px solid lightblue;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+head{
+  background-color: white;
+}
+body{
+  background-color:	#661a00;
+}
+span{
+  color:#661a00;
+}
