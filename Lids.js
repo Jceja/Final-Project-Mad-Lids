@@ -17,7 +17,7 @@ function setStory(){
      var wordsB = JSON.parse(fullstory);
    var story = wordsB[0] + "is the ruler of" + wordsB[1] + "he has been a ruller after he pulled"
     + wordsB[2] + "out of a " + wordsB[3] + "stone." + wordsB[0] + ", had to find " + wordsB[4] +
-    "and had found them at " + words[5] + ",Then" + words[4]+ "went out an got ready the mighty"
+    "and had found them at " + wordsB[5] + ",Then" + wordsB[4]+ "went out an got ready the mighty"
     + wordsB[5] + "and it's trusty" + wordsB[6]+ "He was set off to kill off" + wordsB[7] +
      "as you get close to " + wordsB[8]+ ",Where it lives. As the monstar gets up to you get the mighty weapon and" +
       wordsB[9] + "stap it in";
