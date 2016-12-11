@@ -23,8 +23,8 @@ function setStory(){
       wordsB[9] + "stapping it in its heart. After it's death you were treated to a reward of"
       + wordsB[10] + "When you go to the King, he gives you " + wordsB[11];
 console.log("work please"+ story);
-  var onestory = document.getElementById("storyA");
-  onestory.innerHTML = story;
+  var onestory = document.getElementById("storyA").innerHTML = story;
+
  }
 
 //courtesy of W3schools, from: http://www.w3schools.com/js/js_cookies.asp
