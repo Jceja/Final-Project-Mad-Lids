@@ -24,7 +24,7 @@ function setStory(){
       + wordsB[10] + "When you go to the King, he gives you " + wordsB[11];
 
   var onestory = document.getElementById("storyA");
-  onestory.innerHTML = onestory;
+  onestory.innerHTML = story;
  }
 
 //courtesy of W3schools, from: http://www.w3schools.com/js/js_cookies.asp
