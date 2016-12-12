@@ -27,8 +27,8 @@ function storySetting(){
    + wordsB[7] + " ,When " +wordsB[4] +" found where it lives. The " + wordsB[7] + " gets up and try to attack "
    + wordsB[4] + " But, " + wordsB[4] + " got his mighty " + wordsB[5] + " and " + wordsB[9] + " stapping it in its heart. After it's death. King " + wordsB[0] + " rewarded "
       + wordsB[10] + " to " + wordsB[4];
-console.log(story);
-document.getElementById("storyA").innerHTML = story;
+  console.log(story);
+  document.getElementById("storyA").innerHTML = story;
 }
 //courtesy of W3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
